@@ -1,0 +1,8 @@
+from random import randint
+
+
+#function to generate random number and print name
+
+
+def prin_name(name):
+    print "%s %d"%(name,randint(1,100))
